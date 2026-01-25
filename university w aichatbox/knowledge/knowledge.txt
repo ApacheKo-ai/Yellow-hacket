@@ -1,0 +1,151 @@
+# Dr. Ali Alsinayyid – Director of Cybersecurity Innovation Center
+
+**Full Name:** Dr. Ali Al-Sinayyid  
+**Title:** Assistant Professor of Computer Science and Director of the Cybersecurity Innovation Center (CIC)  
+**Institution:** West Virginia State University (WVSU)  
+**Office:** Wallace Hall 727  
+**Phone:** 304-766-3391  
+**Email:** ali.alsinayyid@wvstateu.edu  
+**Degree:** Ph.D. in Computer Science, Southern Illinois University Carbondale  
+**Experience:** 17+ years in academia and industry
+
+---
+
+## Biography
+Dr. Ali Al-Sinayyid is an Assistant Professor in Computer Science and the Director of the Cybersecurity Innovation Center (CIC) at WVSU. His expertise spans cybersecurity, IT management, and computer science, focusing on critical infrastructure protection, cybersecurity education, and innovation.
+
+He has designed and led various cybersecurity programs, including a newly proposed Bachelor’s degree in Cybersecurity at WVSU. His research involves Industrial Control System (ICS) security, phishing attack defense, and the application of AI in cybersecurity.
+
+Under his leadership, the WVSU CIC has become a hub for workforce development, training students through labs like **CyberHive**, **HoneyNet**, and **KITE**, which simulate real-world ICS environments.  
+He also contributes to programs like the **Agriculture Cybersecurity and AI Lab**, addressing cybersecurity challenges in agriculture and related industries.
+
+Dr. Ali has secured over **$4 million in grants** and built partnerships with companies such as **Google**, **IBM**, and **Amazon**. He has published numerous peer-reviewed papers and delivers talks at national conferences.
+
+---
+
+## Grants and Funding
+
+- $1,000,000 — PI for Google Cybersecurity Clinic (June 2024–December 2030)  
+- $749,973 — Co-PI, Department of Energy Cyber Center for Critical Infrastructure (2022–2026)  
+- $500,000 — Co-PI, Cybersecurity Innovation Center Expansion with Marshall University (2023–2026)  
+- $764,792 — Co-PI, Kanawha County Commission Grant for CIC Establishment (2022)  
+- $349,681 — Co-PI, Collaborative Research: CISE-MSI: DP: III (2023–2025)  
+- $90,000 — Co-PI, West Virginia Identity Theft Technology Hub (2023–2025)  
+- $50,000 — Cisco Equipment Grant (2024)  
+- $15,000 — Co-PI, ACTION Planning Grant (Appalachian Regional Commission, 2024–2025)  
+- $12,000 — NASA Space Grant (2024–2025)  
+- $6,834.68 — Funding for AI Lab Robotics (2021)  
+- $3,000 — NASA REA Cybersecurity Research (2023–2024)  
+- $2,000 — Yellow Jackets UNITE Research Program (2023)  
+- Pending: $125,000 NEH Grant (2025)  
+- Pending: $125,000 EPSCoR R2 Grant (2025)
+
+---
+
+## Media and Publications
+
+- “WVSU Celebrates Opening of Cybersecurity Clinic,” March 19, 2025 – WVSU News, WOWKTV  
+- “WVSU Working With Google to Expand Cybersecurity Program,” June 11, 2024 – Charleston Gazette-Mail  
+- “Teachers Share the Positives, Negatives of Artificial Intelligence in the Classroom,” WOWK, Aug 16, 2024  
+- “Ask an Expert: Computer Science Degree Programs,” TechGuide, Jan 2023  
+- “Cybersecurity Innovation Center Opening,” Press Release, Nov 2023  
+- “Cybersecurity Center for Critical Infrastructure,” Joint Announcement with Marshall University, Dec 2022  
+- Panelist for Secure WV 2024, UIDP, Zippia.com, Supercomputing Organization, WV Legislature Cybersecurity Panel, and others.
+
+---
+
+## Industry and Partnerships
+
+- Collaborated with **Google**, **IBM**, **Amazon Web Services**, **Red Hat Academy**, **Cisco Academy**, **Fusion**, **CASI**, **Alpha Technology**, **EC Console**, **CM2**, **Coursera**, **Adobe**, and others.  
+- Established **Cisco Academy Partnership** enabling CCNA certifications for WVSU students.  
+- Developed the **AWS Tech Alliance** partnership.  
+- Participated in **Research Collaboration Network for Agriculture Cybersecurity** and WV American Water operator training (2024).
+
+---
+
+## Conferences and Presentations
+
+- **IEEE CSCI 2023 (Cyber Warfare)** – Las Vegas  
+- **Springer CSCI 2024 (Cybersecurity & AI)** – Las Vegas  
+- **Springer ICLBM 2024 (Cybersecurity in Business)** – San Francisco  
+- **Secure WV 2023–2024** – Session Chair, 8 student presentations  
+- **URDC Undergraduate Research Day** – 2023, 2024  
+- **HBCU Engage 2024** – Participant  
+- **NICE Dallas Cyber Conference (Google.org Invite)** – June 2024  
+- **NSF Cybersecurity Summit (Carnegie Mellon University)** – Oct 2024  
+- **TechEX24** and **MS-CC Workshop** – 2024  
+- **WVIDTH Consortium Meeting** – Feb 2024
+
+---
+
+## Teaching and Curriculum Development
+
+- Developed **Bachelor’s Degree in Cybersecurity** with concentrations in General and Agricultural Cybersecurity  
+- Designed **13 new courses** for the program  
+- Created **Cybersecurity Minor** in the CS Department  
+- Established **Accelerated CS Master’s (4+1) Program**  
+- Manages **Google Cybersecurity Clinic**, training students to conduct cybersecurity assessments for WV-based organizations  
+- Authored **CS611 Advanced Critical Infrastructure Cybersecurity** textbook  
+- Advised over **40 students** and supervised many **SURE research projects**
+
+---
+
+## Awards and Recognition
+
+- **Teacher of the Year (2024)**  
+- **Service Award Nominee (2024)**  
+- **Faculty of the Year Nominee (2025)**  
+- Multiple **Travel Awards** for conference participation
+
+---
+
+## Research Publications (Selected)
+
+### 2023 – IEEE CSCI Conference (Cybersecurity)
+- *A Literature Survey and Analysis of Defending Cyber Attacks on Critical Infrastructure*  
+- *Analytical Study for Cybersecurity Attacks and Defenses Characteristics*  
+- *Defending Characteristics and Attribution Analysis for Phishing Attacks*
+
+### 2024 – Springer Nature CPS Conferences
+- *Utilizing Logistic Regression to Detect SQL Injection Attacks*  
+- *SVM Enhanced Detection of Volume-Based Attacks in IoT Networks*  
+- *Hybrid IDS for APT Detection Using Bi-LSTM Ensemble Learning*  
+- *Blockchain-Based Security Algorithms Evaluation for SCADA/ICS Systems*  
+- *AI-Driven Solutions for Phishing Detection: Comparative Analysis of ML Models*
+
+### 2024 – IEEE Cybersecurity Submissions
+- *Intelligent Intrusion Detection in ICS using ML/DL*  
+- *Detecting APTs in IoT Critical Infrastructure Using Random Forest*  
+- *Ransomware and AI Defense Mechanisms*  
+- *Cybersecurity Issues in 5G Networks*
+
+### Other Publications
+- *Maximizing Processing Rate for Streaming Applications in Apache Storm* (ICDATA, 2018)  
+- *Wireless Telecommunications Uprising Through 4G LTE* (Al-Qadisiyah Journal, 2017)  
+- *Job Scheduler for Streaming Applications in Heterogeneous Systems* (Springer, 2020)
+
+---
+
+## Courses Taught
+
+- CS611 Computer Security  
+- CS609 Advanced Software Engineering  
+- CS605 Algorithm Design and Analysis  
+- CS540 Network Programming  
+- CS530 Advanced Database Management Systems  
+- CS515 Theory of Computation  
+- CS510 Advanced Operating Systems  
+- CS445 Embedded Systems  
+- CS416 Forensics & Penetration Assessment  
+- CS405 Algorithms  
+- CS336 Scripting Languages  
+- CS316 Cybersecurity Principles & Practice  
+- CS311 Object-Oriented Programming  
+- CS299 Machine Learning  
+- CS250 Data Structures and Algorithms  
+- CS230 Database Management Systems  
+- ET123 Automation & Controls
+
+---
+
+**Source:** College of Natural Sciences & Mathematics – Faculty & Staff Page, West Virginia State University  

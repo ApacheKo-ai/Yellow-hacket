@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WVSU Cybersecurity Department</title>
+    <!-- ✅ Use Flask static path -->
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <!-- Header with Logos -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-section">
+                <img src="images/wvsu-logo.png" alt="WVSU Logo" class="logo">
+                <span class="logo-text">West Visayas State University</span>
+            </div>
+            <div class="logo-section">
+                <img src="images/cybersec-logo.png" alt="Cybersecurity Logo" class="logo">
+                <span class="logo-text">Cybersecurity Department</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Banner -->
+    <nav class="nav-banner">
+        <div class="nav-container">
+            <button class="nav-btn" data-target="home">Home</button>
+            <button class="nav-btn" data-target="contributions">Contributions</button>
+            <button class="nav-btn" data-target="achievements">Achievements</button>
+            <button class="nav-btn" data-target="opportunities">Opportunities</button>
+            <button class="nav-btn" data-target="programs">Programs</button>
+            <button class="nav-btn" data-target="contact">Contact</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- (your main content stays exactly the same) -->
+        <!-- 💬 Floating WVSU AI Chatbox -->
+        <div id="chatbot-container">
+          <div id="chat-toggle">💬</div>
+          <div id="chat-window" class="hidden">
+            <div id="chat-header">
+              <span>WVSU AI Assistant</span>
+              <button id="close-chat">×</button>
+            </div>
+            <div id="chat-messages"></div>
+            <div id="chat-input-area">
+              <input type="text" id="chat-input" placeholder="Ask about WVSU Cybersecurity..." />
+              <button id="send-chat">Send</button>
+            </div>
+          </div>
+        </div>
+    </main>
+
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
