@@ -1,4 +1,4 @@
-# 🐝 Cybersecurity Innovation Center: West Virginia State University
+# 🐝 Cybersecurity Innovation Center: West Virginia State University CIC
 
 [![Deployment: Vercel](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)](https://yellow-hacket.vercel.app/)
 [![Engine: React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
@@ -56,4 +56,4 @@ To explore the architecture or run this project locally:
      pip install -r requirements.txt
      npm start
 
-  Made with ❤️
+  Made with ❤️ Shikhar
