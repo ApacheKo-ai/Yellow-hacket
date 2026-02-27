@@ -134,6 +134,7 @@ function initializeLazyLoading() {
 // Chatbot functionality
 function initializeChatbot() {
     const chatContainer = document.getElementById('chatContainer');
+    const sideLauncher = document.getElementById('side-launcher');
     const openChatBtn = document.getElementById('openChat');
     const minimizeBtn = document.getElementById('minimizeChat');
     const sendBtn = document.getElementById('sendMessage');
@@ -143,6 +144,7 @@ function initializeChatbot() {
     openChatBtn.addEventListener('click', () => {
         chatContainer.style.display = 'flex';
         openChatBtn.style.display = 'none';
+        if (sideLauncher) sideLauncher.classList.add('closed');
         // Add initial greeting
         addMessage('Hello! How can I help you today?', 'bot');
     });
@@ -150,6 +152,7 @@ function initializeChatbot() {
     minimizeBtn.addEventListener('click', () => {
         chatContainer.style.display = 'none';
         openChatBtn.style.display = 'block';
+        if (sideLauncher) sideLauncher.classList.remove('closed');
     });
 
     function addMessage(text, sender) {
@@ -266,10 +269,96 @@ function initializeBackToTop() {
     });
 }
 
+// Hide nav on scroll down, show on scroll up
+function initializeNavVisibility() {
+    const nav = document.querySelector('.nav-banner');
+    if (!nav) return;
+
+    let lastY = window.scrollY || 0;
+    const threshold = 10; // minimum delta to trigger
+
+    window.addEventListener('scroll', () => {
+        const currentY = window.scrollY || 0;
+        const delta = currentY - lastY;
+
+        if (Math.abs(delta) < threshold) return; // ignore tiny moves
+
+        if (currentY > lastY && currentY > 100) {
+            // scrolling down -> hide
+            nav.classList.add('hidden');
+        } else {
+            // scrolling up -> show
+            nav.classList.remove('hidden');
+        }
+
+        lastY = currentY;
+    }, { passive: true });
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     initializeLazyLoading();
     initializeChatbot();
     initializeFeaturedAutoScroll();
     initializeBackToTop();
+    initializeNavVisibility();
 });
+
+const track = document.getElementById("image-track");
+
+// start carousel with second image roughly centered
+if (track) {
+    const imgWidth = 175; // matches CSS
+    const gap = parseFloat(getComputedStyle(track).gap) || 24; // 1.5rem ~ 24px
+    const offsetPx = imgWidth + gap; // move one image over
+    const maxDelta = window.innerWidth / 2; // same value used in movement math
+    const startPercent = (offsetPx / maxDelta) * -100;
+    track.dataset.percentage = startPercent;
+    track.dataset.prevPercentage = startPercent;
+    track.style.transform = `translate(${startPercent}%, 0%)`;
+    track.dataset.mouseDownAt = "0";
+}
+
+let isDragging = false;
+
+const handleOnDown = e => {
+  if (!track) return;
+  isDragging = true;
+  track.dataset.mouseDownAt = String(e.clientX);
+  // prevent image drag ghosting
+  e.preventDefault();
+};
+
+const handleOnUp = () => {
+  if (!track) return;
+  isDragging = false;
+  track.dataset.mouseDownAt = "0";
+  track.dataset.prevPercentage = track.dataset.percentage;
+};
+
+const handleOnMove = e => {
+  if (!track || !isDragging || track.dataset.mouseDownAt === "0") return;
+
+  const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX;
+  const maxDelta = window.innerWidth / 2;
+
+  const percentage = (mouseDelta / maxDelta) * -100;
+  const nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage || 0) + percentage;
+  const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 50), -100);
+
+  track.dataset.percentage = nextPercentage;
+
+  // immediate transform for snappy dragging
+  track.style.transform = `translate(${nextPercentage}%, 0%)`;
+
+  for (const image of track.getElementsByClassName("image")) {
+    image.style.objectPosition = `${100 + nextPercentage}% center`;
+  }
+};
+
+// pointer events: start drag on track only, listen for move/up on window
+if (track) {
+  track.addEventListener('pointerdown', (e) => handleOnDown(e));
+  window.addEventListener('pointerup', () => handleOnUp(), { passive: true });
+  window.addEventListener('pointermove', (e) => handleOnMove(e), { passive: true });
+}
